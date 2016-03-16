@@ -12,6 +12,7 @@
 		308B3FE41C99FBE5004D5599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308B3FE21C99FBE5004D5599 /* Main.storyboard */; };
 		308B3FE61C99FBE5004D5599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308B3FE51C99FBE5004D5599 /* Assets.xcassets */; };
 		308B3FE91C99FBE5004D5599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308B3FE71C99FBE5004D5599 /* LaunchScreen.storyboard */; };
+		308B3FF11C9A0A44004D5599 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308B3FF01C9A0A44004D5599 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		308B3FE51C99FBE5004D5599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		308B3FE81C99FBE5004D5599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		308B3FEA1C99FBE5004D5599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		308B3FF01C9A0A44004D5599 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		308B3FDD1C99FBE5004D5599 /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				308B3FF31C9A0E26004D5599 /* View Controllers */,
 				308B3FDE1C99FBE5004D5599 /* AppDelegate.swift */,
 				308B3FE01C99FBE5004D5599 /* ViewController.swift */,
 				308B3FE21C99FBE5004D5599 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				308B3FEA1C99FBE5004D5599 /* Info.plist */,
 			);
 			path = tips;
+			sourceTree = "<group>";
+		};
+		308B3FF31C9A0E26004D5599 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				308B3FF01C9A0A44004D5599 /* SettingsViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				308B3FE11C99FBE5004D5599 /* ViewController.swift in Sources */,
 				308B3FDF1C99FBE5004D5599 /* AppDelegate.swift in Sources */,
+				308B3FF11C9A0A44004D5599 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
